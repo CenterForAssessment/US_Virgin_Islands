@@ -20,4 +20,5 @@ prepare data and run SGP analyses.
 
 * [Damian Betebenner](https://github.com/dbetebenner)
 * [Adam VanIwaarden](https://github.com/adamvi)
+* [Juan D'Brot](https://github.com/jmdbrot)
 
