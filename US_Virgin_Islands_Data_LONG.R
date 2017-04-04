@@ -29,7 +29,7 @@ US_VI_ELA_LONG <- data.table(
                 ACHIEVEMENT_LEVEL=as.numeric(c(US_VI_ELA[['2014_PL']], US_VI_ELA[['2015_PL']])),
                 SCHOOL_NUMBER=c(rep(NA, nrow(US_VI_ELA)), US_VI_ELA$ResponsibleSchoolIdentifier),
                 DISTRICT_NUMBER=c(rep(NA, nrow(US_VI_ELA)), US_VI_ELA$ResponsibleDistrictIdentifier),
-                STATE="VI")
+                ORIGIN="VI")
 
 US_VI_MATHEMATICS_LONG <- data.table(
                 VALID_CASE="VALID_CASE",
@@ -41,7 +41,7 @@ US_VI_MATHEMATICS_LONG <- data.table(
                 ACHIEVEMENT_LEVEL=as.numeric(c(US_VI_MATHEMATICS[['2014_PL']], US_VI_MATHEMATICS[['2015_PL']])),
                 SCHOOL_NUMBER=c(rep(NA, nrow(US_VI_MATHEMATICS)), US_VI_MATHEMATICS$ResponsibleSchoolIdentifier),
                 DISTRICT_NUMBER=c(rep(NA, nrow(US_VI_MATHEMATICS)), US_VI_MATHEMATICS$ResponsibleDistrictIdentifier),
-                STATE="VI")
+                ORIGIN="VI")
 
 US_Virgin_Islands_Data_LONG <- rbindlist(list(US_VI_ELA_LONG, US_VI_MATHEMATICS_LONG))
 
