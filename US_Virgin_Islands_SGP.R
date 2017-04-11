@@ -37,7 +37,7 @@ US_Virgin_Islands_SGP<-combineSGP(US_Virgin_Islands_SGP)
 
 ### summarizeSGP
 
-#US_Virgin_Islands_SGP <- summarizeSGP(US_Virgin_Islands_SGP)
+US_Virgin_Islands_SGP <- summarizeSGP(US_Virgin_Islands_SGP)
 
 
 ### outputSGP
